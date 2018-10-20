@@ -1,0 +1,28 @@
+.matchImg{
+    height: 150px;
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.matchName{    
+    font-size: 5rem;
+    text-align: center;
+}
+
+#match{
+    margin: auto;
+}
+
+.friend{
+    margin: 3rem;
+}
+
+.you{
+    margin: 3rem;
+}
+
+.questions{
+    font-weight: bold;
+}

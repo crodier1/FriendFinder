@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Survey</title>
+
+
+    <!-- Latest compiled and minified CSS & JS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <!-- Font Awesome Glyphicons -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
+    <!-- Chosen -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="/style">
+
+</head>
+
+<body>
+    <div class="container">
+
+        <h1>Survey Questions</h1>
+        <hr>
+
+        <form>
+            <h1 class="questions">About you</h1>
+            <h3>Name (Required)</h3>
+            <input type="text" name="name" id="name" class="form-control">
+
+            <h3>Link to Picture (Required)</h3>
+            <input type="url" name="link" id="photo" class="form-control">
+
+            <h1 class="questions">Question 1</h1>
+            <h3>Your mind is always buzzing with unexplored ideas and plans.</h3>
+            <select id="q1">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+
+
+            <h1 class="questions">Question 2</h1>
+            <h3>Generally speaking, you rely more on your experience than your imagination.</h3>
+            <select class="question" id="q2">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+
+            <h1 class="questions">Question 3</h1>
+            <h3>You find it easy to stay relaxed and focused even when there is some pressure.</h3>
+            <select class="question" id="q3">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+
+
+            <h1 class="questions">Question 4</h1>
+            <h3>You rarely do something just out of sheer curiosity.</h3>
+            <select class="question" id="q4">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+
+            <h1 class="questions">Question 5</h1>
+            <h3>People can rarely upset you.</h3>
+            <select class="question" id="q5">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+
+            <h1 class="questions">Question 6</h1>
+            <h3>It is often difficult for you to relate to other people’s feelings.</h3>
+            <select class="question" id="q6">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+
+            <h1 class="questions">Question 7</h1>
+            <h3>In a discussion, truth should be more important than people’s sensitivities.</h3>
+            <select class="question" id="q7">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+
+
+            <h1 class="questions">Question 8</h1>
+            <h3>You rarely get carried away by fantasies and ideas.</h3>
+            <select class="question" id="q8">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+
+            <h1 class="questions">Question 9</h1>
+            <h3>You think that everyone’s views should be respected regardless of whether they are supported by facts
+                or
+                not.</h3>
+            <select class="question" id="q9">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+
+            <h1 class="questions">Question 10</h1>
+            <h3>You feel more energetic after spending time with a group of people.</h3>
+            <select class="" id="q10">
+                <option value="question"></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+
+
+            <br>
+            <br>
+            <button type="submit" id="submit" data-toggle="modal" data-target="#exampleModalCenter" class="btn btn-primary btn-lg btn-block">
+                <i class="fa fa-check-circle" aria-hidden="true"></i> Submit
+            </button>
+
+        </form>
+
+
+        <hr>
+        <a href="/api/friends" target="_blank">API Friends List</a>
+
+
+    </div>
+
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <h1><span id="headText">...</span></h1>
+
+                    <div class="row" id="match"></div>
+
+
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script type="text/javascript">
+
+        let userTotal = 0,
+            friendTotal = 100,
+            yourFriend = {},
+            userData = {};
+
+        $("#submit").on("click", event => {
+            let surveyIncomplete = false;
+            event.preventDefault();
+
+            let answers = [
+                $("#name").val(),
+                $("#photo").val(),
+                $("#q1").val(),
+                $("#q2").val(),
+                $("#q3").val(),
+                $("#q4").val(),
+                $("#q5").val(),
+                $("#q6").val(),
+                $("#q7").val(),
+                $("#q8").val(),
+                $("#q9").val(),
+                $("#q10").val()
+            ];
+
+            for (j of answers) {
+                if (j === "" || j === undefined) {
+                    surveyIncomplete = true;
+                }
+            }
+
+
+            //check to see if survey complete
+            if (!surveyIncomplete) {
+                userTotal = 0;
+
+                userData = {
+                    name: $("#name").val().trim(),
+                    photo: $("#photo").val().trim(),
+                    scores: [
+                        $("#q1").val(),
+                        $("#q2").val(),
+                        $("#q3").val(),
+                        $("#q4").val(),
+                        $("#q5").val(),
+                        $("#q6").val(),
+                        $("#q7").val(),
+                        $("#q8").val(),
+                        $("#q9").val(),
+                        $("#q10").val()
+                    ]
+
+                }
+
+                $.post("/api/friends", userData)
+                    .then(data => {
+
+                        if (data) {
+                            console.log("Posted!");
+
+                        }
+                    });
+
+                for (i of userData.scores) {
+                    userTotal += parseInt(i);
+
+                    $("input").val("");
+                    $("select").val("");
+
+
+                }
+
+                match();
+
+
+            } else {
+                //insert modal text if survey incomplete
+                $("#exampleModalLongTitle").text("");
+                $("#exampleModalLongTitle").text("Oops!");
+
+                $("#headText").text("");
+                $("#headText").text("Survey Incomplete");
+
+                $("#match").html("");
+            }
+
+
+
+
+        });
+
+        //friend match algorthim
+        match = () => {
+            friendTotal = 100;
+            $.get("/api/friends", (req, res, data) => {
+                let arr = data.responseJSON;
+
+                for (let i = 0; i < arr.length - 1; i++) {
+
+                    let scoreArr = arr[i].scores,
+                        temp = 0;
+
+
+                    temp += scoreArr.reduce((a, b) => parseInt(a) + parseInt(b));
+
+
+                    let difference = userTotal - temp;
+
+                    if (difference > - 1 && difference < friendTotal) {
+                        friendTotal = difference;
+                        yourFriend = arr[i];
+
+                    }
+
+                    temp = 0;
+
+                }
+
+                console.log(yourFriend);
+
+                //insert survey text & pictures if modal complete
+
+                $("#exampleModalLongTitle").text("");
+                $("#exampleModalLongTitle").text("Yass!");
+
+                $("#headText").text("");
+                $("#headText").text("Match found!");
+
+                $("#match").html("");
+
+                let friendDiv = $("<div>");
+                friendDiv.addClass("col-md-4 friend");
+                let friendImg = $("<img>");
+                friendImg.addClass("matchImg");
+                friendImg.attr("src", yourFriend.photo);
+                friendDiv.append(friendImg);
+                let friendName = $("<h1>");
+                friendName.addClass("matchName");
+                friendName.text(yourFriend.name);
+                friendDiv.append(friendName);
+
+                $("#match").append(friendDiv);
+
+
+                let youDiv = $("<div>");
+                youDiv.addClass("col-md-4 you");
+                let youImage = $("<img>");
+                youImage.addClass("matchImg");
+                youImage.attr("src", userData.photo);
+                youDiv.append(youImage);
+                let yourName = $("<h1>");
+                yourName.addClass("matchName");
+                yourName.text(userData.name);
+                youDiv.append(yourName);
+
+                $("#match").append(youDiv);
+
+            });
+
+
+        }
+
+
+
+    </script>
+</body>
+
+</html>
