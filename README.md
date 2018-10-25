@@ -1,3 +1,5 @@
+[Click Here to Load the Page](https://friendfinder-crodier.herokuapp.com/)
+
 Find your BFF in a few easy steps
 
 1. Click on Take Survey link
